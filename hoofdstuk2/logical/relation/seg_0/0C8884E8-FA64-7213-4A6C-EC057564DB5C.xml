@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KLASv1 DOCENTv1 FK" directorySegmentName="seg_0" id="0C8884E8-FA64-7213-4A6C-EC057564DB5C">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 23:06:09 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<sourcePk>A98D9125-392B-3755-E31F-1F0F2432587C</sourcePk>
+<targetPk>5E71C087-8BBA-12B1-B683-EB76F42CCBD1</targetPk>
+<identifying>false</identifying>
+<nameOnSource>May be teached by</nameOnSource>
+<nameOnTarget>teaches</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E09C769A-DEFD-1296-CB48-A922DD2DD8D6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BDFA220C-11DB-C6CE-B918-8475E9A123D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

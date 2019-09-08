@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="090E36B1-B1D4-978B-FF4F-E1A200AACA94" name="KLAS">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:43:03 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="naam" id="F8D06D57-0384-9E7A-0A60-F1C31835B9F9">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:43:11 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jaar" id="2F649CA8-E164-576F-BAE6-1EB6EB968BA6">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:43:38 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aantal leerlingen" id="DC92FFA5-4945-2D2F-1088-79F71B71BEC9">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:44:10 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="621A4C15-C893-82F5-C535-2676D2237180" name="KLAS PK">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:43:34 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8D06D57-0384-9E7A-0A60-F1C31835B9F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

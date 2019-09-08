@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="hoofdstuk3" id="20D3791E-EDCF-C283-BC8E-A3D6DA48D655" version="3.5">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-08 20:22:40 UTC</createdTime>
+<ownerDesignName>hoofdstuk3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>20D3791E-EDCF-C283-BC8E-A3D6DA48D655</designId>
+</OSDM_Design>

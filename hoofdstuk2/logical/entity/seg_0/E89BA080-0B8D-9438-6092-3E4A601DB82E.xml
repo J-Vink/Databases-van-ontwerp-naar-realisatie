@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E89BA080-0B8D-9438-6092-3E4A601DB82E" name="VERKOPER">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 21:48:42 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="werknemer id" id="B58A0496-94A0-E6D3-9640-8C48BE03C60A">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 21:49:47 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="achternaam" id="2B2A25A4-89FD-A4F9-68D9-E832E2810732">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 21:54:32 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="voornaam" id="BFE42B84-2C9E-71A9-712A-2BDDF02901DF">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:19:28 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="startdatum" id="EE12D595-3328-C893-FFBB-5A4E58A9FFA0">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 21:56:47 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="24CBACEE-390C-6B95-8F50-56E9D0F2F994">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:20:02 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoon" id="B22B0087-E012-AD52-7D19-844E5B64C18C">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:20:24 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titel" id="E847D20C-97B6-28A1-47F3-94217DDB457D">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:20:59 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salaris" id="113F2D48-37AC-49AB-81A4-AEBA8B4A5D1A">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:21:38 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="commissiepercentage" id="5231ABE6-D77E-570C-FF1D-DBE14E089EA8">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:22:00 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="commentaar" id="856C4CC5-4C6A-81D3-218B-4FDE75280198">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 21:55:59 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>MAX</dataTypeSize>
+<ownDataTypeParameters>MAX,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AFDELING afdeling id" id="72F31B1E-8A1F-9A37-97DC-69CE4C05423F">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:25:34 UTC</createdTime>
+<generatorID>A97805E5-EFF8-6EA2-2651-2BCAAB0D455D</generatorID>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<referedAttribute>7C918FB8-BC52-339D-59BB-5F6F5D89EF42</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7A245B1-985F-F8EB-61FF-ECC27073F79D" name="VERKOPER PK">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 21:50:10 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B58A0496-94A0-E6D3-9640-8C48BE03C60A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

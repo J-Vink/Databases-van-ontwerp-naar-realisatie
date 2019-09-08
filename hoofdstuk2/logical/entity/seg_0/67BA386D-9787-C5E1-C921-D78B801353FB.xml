@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67BA386D-9787-C5E1-C921-D78B801353FB" name="DOCENT">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:41:12 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="personeelsnummer" id="6769335E-26FF-9C1E-BB62-246FE9B017CB">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:41:24 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naam" id="65BFCBBF-D1F5-5A58-3074-621D9FE36554">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:41:51 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adres" id="E10B3685-8B9F-7373-236E-FA4C852A5E41">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:42:09 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoonnummer" id="E57A53C6-BA9E-D233-E51D-C908FE30B17D">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:42:23 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KLAS naam" id="2CE1A54A-22F9-9E4F-52DE-F69466A2357C">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:52:26 UTC</createdTime>
+<generatorID>4FB0956C-42DB-BE68-181A-D37F8D9B5DE4</generatorID>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F8D06D57-0384-9E7A-0A60-F1C31835B9F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E3BDE1D-5FAC-437B-E61A-3A9F6A2D666C" name="DOCENT PK">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:41:35 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6769335E-26FF-9C1E-BB62-246FE9B017CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

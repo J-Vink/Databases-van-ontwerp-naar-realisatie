@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA038BF9-D1BE-1370-B86F-42E8019305AE" containerWithKeyObject="EE9F9818-9E40-70EA-1804-8B9F167CF4D7" localFKIndex="907C2952-3361-6AC9-D3A8-944FBA1F8F4C" name="VERKOPER_AFDELING_FK">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 23:33:07 UTC</createdTime>
+<generatorID>A97805E5-EFF8-6EA2-2651-2BCAAB0D455D</generatorID>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<referredTableLongName>AFDELING</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9CC82530-3037-1B8D-C680-FA7399803F2C</referredTableID>
+<keyObject>CD24B412-273E-DA80-B18E-732F7A125622</keyObject>
+<referredKeyID>CD24B412-273E-DA80-B18E-732F7A125622</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>afdeling_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

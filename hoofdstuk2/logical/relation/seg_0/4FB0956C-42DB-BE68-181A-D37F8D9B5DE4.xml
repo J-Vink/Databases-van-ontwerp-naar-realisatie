@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DOCENT KLAS FK" directorySegmentName="seg_0" id="4FB0956C-42DB-BE68-181A-D37F8D9B5DE4">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:51:37 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<sourcePk>621A4C15-C893-82F5-C535-2676D2237180</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>090E36B1-B1D4-978B-FF4F-E1A200AACA94</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67BA386D-9787-C5E1-C921-D78B801353FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3691D499-4505-95C3-9F3B-F4A2AC65BA59" name="DOCENTv2">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 23:33:07 UTC</createdTime>
+<generatorID>9E273AFE-1491-7353-66FE-8C7912F8EC0A</generatorID>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="personeelsnummer" id="8614E44A-37F3-38A1-D0E2-7FA671D15BF5">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 23:33:07 UTC</createdTime>
+<generatorID>D6876210-AD52-A5D7-BBDF-AD3A035AA5D9</generatorID>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naam" id="135B5330-8D1A-8F74-A49C-C95D7869F117">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 23:33:07 UTC</createdTime>
+<generatorID>F3876A34-1834-0DDD-971E-A80CFD935557</generatorID>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres" id="B0B6E83B-C7F0-74B7-1D50-E129A31138E9">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 23:33:07 UTC</createdTime>
+<generatorID>0B79F260-B907-2EC0-6AE6-C192630FD38E</generatorID>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoonnummer" id="4893B1AF-C56F-5E6F-DE0B-01706FC79624">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 23:33:07 UTC</createdTime>
+<generatorID>F004CD2A-49E8-C041-B704-299ABAA716DF</generatorID>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6F0BBC2-2AB3-861E-8A2F-E3EAE4DBC53A" name="DOCENTv2_PK">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 23:33:07 UTC</createdTime>
+<generatorID>E30DE379-A5E6-61B0-E964-0F30133002D3</generatorID>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8614E44A-37F3-38A1-D0E2-7FA671D15BF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

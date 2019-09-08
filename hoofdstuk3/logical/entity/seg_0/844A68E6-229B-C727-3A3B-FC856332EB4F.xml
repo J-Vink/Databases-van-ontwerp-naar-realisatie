@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="844A68E6-229B-C727-3A3B-FC856332EB4F" name="voogd">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-08 20:35:16 UTC</createdTime>
+<ownerDesignName>hoofdstuk3</ownerDesignName>
+<engineerTo>
+<item key="9CD41671-C429-1664-77C2-83A6FE254492" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="werknemersid" id="81DD1CA9-84FC-0525-3A0B-A8E8026536CE">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-08 20:35:16 UTC</createdTime>
+<ownerDesignName>hoofdstuk3</ownerDesignName>
+<engineerTo>
+<item key="9CD41671-C429-1664-77C2-83A6FE254492" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="voornaam" id="B9808233-A0E1-404A-DF34-A830BA3D1DCC">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-08 20:35:16 UTC</createdTime>
+<ownerDesignName>hoofdstuk3</ownerDesignName>
+<engineerTo>
+<item key="9CD41671-C429-1664-77C2-83A6FE254492" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="achternaam" id="5FF73A9A-0FAF-11B1-F46B-2018AEE359B7">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-08 20:35:16 UTC</createdTime>
+<ownerDesignName>hoofdstuk3</ownerDesignName>
+<engineerTo>
+<item key="9CD41671-C429-1664-77C2-83A6FE254492" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="470C31BA-7C1E-4121-9522-9BDC26481A60" name="dichter PK">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-08 20:35:16 UTC</createdTime>
+<ownerDesignName>hoofdstuk3</ownerDesignName>
+<engineerTo>
+<item key="9CD41671-C429-1664-77C2-83A6FE254492" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>81DD1CA9-84FC-0525-3A0B-A8E8026536CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

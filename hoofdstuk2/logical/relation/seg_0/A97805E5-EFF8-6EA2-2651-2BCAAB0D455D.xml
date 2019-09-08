@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VERKOPER AFDELING FK" directorySegmentName="seg_0" id="A97805E5-EFF8-6EA2-2651-2BCAAB0D455D">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-07 22:25:14 UTC</createdTime>
+<ownerDesignName>hoofdstuk2</ownerDesignName>
+<engineerTo>
+<item key="C6719FA9-1F43-505E-93DF-9A863B6EE71E" value="true"/>
+</engineerTo>
+<sourcePk>AD25BC1D-B55E-7F92-A139-6BBE82F1CAF1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A27FEBCA-2E26-62BC-AF35-BA5C36F66B88</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E89BA080-0B8D-9438-6092-3E4A601DB82E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="de schrijver van" directorySegmentName="seg_0" id="AF92000E-E99E-56BE-D7BA-80B3C546A0D1">
+<createdBy>Jeff</createdBy>
+<createdTime>2019-09-08 20:30:26 UTC</createdTime>
+<ownerDesignName>hoofdstuk3</ownerDesignName>
+<engineerTo>
+<item key="9CD41671-C429-1664-77C2-83A6FE254492" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>C0E3F6DB-6787-6308-9E41-FC6E7613F159</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Written by</nameOnSource>
+<nameOnTarget>Wrote</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA45E2A1-1DA9-421F-ABBC-5B2F2DF90202</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7D076D88-3E1C-B921-A8B2-BA3B405CF169</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
